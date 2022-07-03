@@ -1,0 +1,18 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+
+body{
+    padding: 30px;
+}
+
+li{
+    border: 1px solid #000; 
+    list-style: none;
+
+}
+span{
+    width: 100%;
+    left: 20px;
+}

@@ -1,0 +1,10 @@
+<% @users.each do |user| %>
+	<li>
+		<span><%= user.id %></span> | 
+		<span><%= link_to user.name, user %> </span>, 
+		<span><%= user.is_author %></span> 
+	</li>	
+<% end %>
+
+
+

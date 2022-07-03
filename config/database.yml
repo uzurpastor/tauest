@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: tau_est
+  password: pass
+  pool: 5
+
+development:
+  <<: *default
+  database: tau_est_dev
+
+test:
+  <<: *default
+  database: tau_est_test
+
+production:
+  <<: *default
+  database: tau_est_prod

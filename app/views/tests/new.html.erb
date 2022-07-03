@@ -1,0 +1,7 @@
+<%= form_for @test do |f| %>
+	  <%= f.label :name, "Name of test" %>
+	  <%= f.text_field :name %><br>
+			<label for="test_name">count of question</label>
+	  		<input type="number" style="width: 50px" name="test[name]" id="test_name" />
+	  <%= f.button "create test"  %>
+<% end %>

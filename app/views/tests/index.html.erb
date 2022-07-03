@@ -1,0 +1,10 @@
+<% @tests.each do |test| %>
+<li>
+	<span><%= test.id %></span>
+	<span><%= link_to test.name, test %></span>
+	<span><%= test.stars.count %></span>
+	<button name="button" type="submit" >change test </button>
+
+	<br>
+	</li>
+<% end %>
